@@ -1,6 +1,6 @@
 const rick = require('aoi.js');
 const bot = new rick.Bot({
-  token: process.env['token'],
+  token: process.env['token'],  ///.enve token diye bir deger acip tokeninizi girin!
   prefix:"r!"
   })
 
